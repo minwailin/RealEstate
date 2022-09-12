@@ -1,13 +1,25 @@
-<div class="row">
-    <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/images/h1.png" alt="...">
-            <div class="card-body">
-              <h5 class="card-title mt-1">{{property.Name}}</h5>
-              <p class="card-text">Type : {{property.Type}}</p>
-              <p class="card-text">Price : {{property.Price}} $</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-    </div>
+<div class="card mt-2" style="width: 20rem">
+  <div class="img-wapper">
+    <img *ngIf="property.Image" class="card-img-top" src="./assets/images/{{property.Image}}.jpg" alt="..." />
+    <img *ngIf="!property.Image" class="card-img-top" src="./assets/images/h1.png" alt="..." />
+    <ul class="list-inline list-member animate">
+      <li class="list-inline-item">
+        <button class="btn btn-secondary" routerLink="/property-detail/{{property.Id}}">
+          <i class="fa-regular fa-file-lines"></i>
+        </button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary">
+          <i class="fa-solid fa-phone"></i>
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="card-body">
+    <h5 class="card-title mt-1">{{ property.Name }}</h5>
+    <p class="card-text">Type : {{ property.Type }}</p>
+    <p class="card-text">Price : {{ property.Price }} $</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
 </div>

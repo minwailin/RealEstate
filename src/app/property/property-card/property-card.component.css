@@ -1,7 +1,42 @@
-h1{
-    color: red;
-}
+
+
 h5 {
     text-align: center;
     font-weight: bold;
+    background-color: antiquewhite;
+}
+.card:hover img{
+    transform: scale(1.1,1.1);
+    transition-duration:300ms ;
+    transition-timing-function: ease-out;
+    height: 220px;
+
+}
+.card img{
+    transform: scale(1,1);
+    transition-duration:300ms ;
+    transition-timing-function: ease-out;
+    height: 220px;
+    width: 250px;
+
+}
+.img-wapper{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.list-member{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -20%;
+}
+.img-wapper:hover .list-member{
+    bottom: 2%;
+}
+
+.animate{
+    transition : all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
 }

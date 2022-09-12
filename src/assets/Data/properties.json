@@ -1,0 +1,51 @@
+[
+    {
+      "Id" :1 ,
+      "Sell_Rent":1,
+      "Name" :"AyaChanTha Housing 1st Floor",
+      "Price":"250000",
+       "Type":"2 Bed Rooms",
+       "Image":"photo1"
+   },
+   {
+      "Id" :2 ,
+      "Sell_Rent":2,
+      "Name" :"AyaChanTha Housing 1st floor",
+      "Price":"250000",
+       "Type":"3 Bed Rooms",
+       "Image":"photo4"
+   },
+   {
+      "Id" :3 ,
+      "Sell_Rent":1,
+      "Name" :"AyaChanTha Housing 1st floor",
+      "Price":"255000",
+       "Type":"2 Bed Rooms",
+       "Image":"photo3"
+   },
+   {
+      "Id" :4 ,
+      "Sell_Rent":1,
+      "Name" :"AyaChanTha Housing 2nd floor",
+      "Price":"250000",
+       "Type":"2 Bed Rooms",
+       "Image":"photo2"
+   },
+   {
+      "Id" :5 ,
+      "Sell_Rent":2,
+      "Name" :"AyaChanTha Housing 2nd floor",
+      "Price":"150000",
+       "Type":"1 Bed Rooms",
+       "Image":"photo5"
+   },
+   {
+      "Id" :6 ,
+      "Sell_Rent":2,
+      "Name" :"AyaChanTha Housing 2nd floor",
+      "Price":"450000",
+       "Type":"3 Bed Rooms",
+       "Image":""
+       
+   }
+  ]

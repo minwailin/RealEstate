@@ -1,0 +1,7 @@
+.atext {
+    color: rgb(175, 202, 235) !important;
+    font-weight: bold;
+}
+.atext:hover{
+    color: rgb(197, 241, 226) !important;
+}
